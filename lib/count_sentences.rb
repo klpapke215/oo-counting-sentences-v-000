@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     self.split(/[[:punct:]]/).count
+    unless == (" ")
     binding.pry 
   end
 end
